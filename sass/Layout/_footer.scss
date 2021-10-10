@@ -1,0 +1,44 @@
+.footer{
+    color: $color-white;
+    padding: 9.5rem 0 1.5rem 0;
+    background-color: $color-black;
+    &__actor{
+        float: left;
+       margin-bottom: 8rem;
+       &--link{
+           text-decoration: none;
+           color: $color-white;
+       }
+    }
+    &__contact{
+       float: left;
+        width: 100%;
+        margin-bottom: 8rem;
+    }
+   
+    
+}
+.navigation__item{
+    list-style: none;
+    &:not(:last-child){
+        margin-bottom: 1.2rem;
+    }
+}
+.navigation__link{
+    &:link,
+    &:visited{
+        text-decoration: none;
+        color: $color-white;
+    }
+}
+.social__item{
+    list-style: none;
+    margin-bottom: 1.2rem;
+}
+.social__link{
+    &:link,
+    &:visited{
+        text-decoration: none;
+        color: $color-white;
+    }
+}

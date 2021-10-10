@@ -1,0 +1,13 @@
+.section__desc{
+    text-align: center;
+    background-color: $color-primary;
+    padding: 10rem 0;
+    &--text{
+        padding: 3.5rem 3rem 0 3rem;
+        line-height: 2rem;
+    }
+}
+.section__primary{
+    background-color: $color-primary;
+   
+}

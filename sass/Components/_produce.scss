@@ -1,0 +1,25 @@
+.produce{
+    padding: 0;
+    &__item{
+        height: 30rem;
+        background-blend-mode: screen;
+        background-size: cover;
+       position: relative;
+        &--old{
+            background-color: $color-primary-dark;
+        }
+        &--even{
+            background-color: $color-primary-light;
+            
+        }
+        &--1{
+            background-image: url('../image/sp1.jpg');
+        }
+       
+       
+    }
+
+}
+.produce div{
+    padding: 0 !important;
+}
